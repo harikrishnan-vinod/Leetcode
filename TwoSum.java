@@ -7,7 +7,7 @@ public class TwoSum
     {
         Map<Integer, Integer> mapp = new HashMap<>();
         int numsLength = nums.length;
-
+        
         for(int i = 0; i < numsLength;++i)
         {
             if(mapp.containsKey(target - nums[i]))
